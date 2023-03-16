@@ -10,8 +10,12 @@
 		"url": "https://floatdrop.me/"
 	},
 	"type": "module",
-	"exports": "./index.js",
-	"types": "./types.d.ts",
+	"exports": {
+		".": {
+			"types": "./types.d.ts",
+			"default": "./index.js"
+		}
+	},
 	"engines": {
 		"node": "^14.20.1 || >=16.0.0"
 	},

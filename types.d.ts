@@ -19,4 +19,4 @@ declare namespace expressRequestId {
 }
 
 declare function expressRequestId(options?: expressRequestId.Options): RequestHandler;
-export = expressRequestId;
+export default expressRequestId;
